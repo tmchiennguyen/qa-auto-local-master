@@ -22,6 +22,7 @@ public class TestFormAuto {
         driver.get("http://www.toolsqa.com/automation-practice-form/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
     }
 
     @Test
